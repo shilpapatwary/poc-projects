@@ -1,0 +1,51 @@
+
+div.customLogin .loginPassword,.loginUsername,.loginSubmit,.forgotPassword{
+  margin-top:2%;
+  width:100%;
+  height:30px;
+  
+}
+div.loginContainer{
+width:50%;
+
+}
+div.customLogin,div.social-login{
+	display:inline-block;
+	
+	height:100px;
+	margin-right:3%;
+	text-align:center;
+}
+div.customLogin{
+
+width:35%;
+}
+div.social-login{
+
+width:38%
+}
+div.roundCorners > input,div.roundCorners> button{
+border:1px solid black;
+border-radius:10px;
+
+}
+div.SharpCorners > input,div.SharpCorners button{
+border:1px solid black;
+border-radius:0px;
+}
+
+.social-login>a{
+	display:block;
+	margin-top:5%;
+}
+.containerRight{
+  float:right;
+  
+}
+.containerLeft{
+	float:left;
+}
+button{
+cursor:pointer;
+text-decoration:none;
+}
